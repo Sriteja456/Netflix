@@ -1,0 +1,36 @@
+*{
+    color: #fff;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image:url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZ6ND88pZdT9v-gbiVfmMr8vowAHFfr8ujruNpYcF3Wv3LRAZtC9MRPHiYrREQWia2AAG29hUmfPvn73DDFyhcmjDCR0N47ivOvB.jpg?r=965&quot;);
+    background-position: center center;
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    max-width: 100;
+    height: 600px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 3% 1%; 
+}
+.posters::-webkit-scrollbar{
+display: none;
+}
+.poster{
+margin: 0px 0.5%;
+border-radius: 3px;
+}
+h1{
+color: #fff;
+font-weight: 300;
+font-size: 1.2rem;
+font-family: Arial, Helvetica, sans-serif;
+padding: 2px 2rem;
+
+}
